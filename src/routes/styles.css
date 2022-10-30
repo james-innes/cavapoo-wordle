@@ -1,5 +1,57 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500");
+
+:root {
+  --color-theme-1: #8dd0ed;
+  --color-theme-2: #b2e8c1;
+  --color-text: #4060b2;
+}
+
 body {
-  background-color: red;
-  border: 10px blue solid;
+  font-family: "Open Sans", sans-serif;
+  color: #4060b2;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-theme-1);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  max-width: 30rem;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 2.4rem;
+  }
 }
