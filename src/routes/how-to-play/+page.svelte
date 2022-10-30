@@ -1,21 +1,7 @@
 <section>
   <h1>How to play</h1>
 
-  <ol>
-    <li>
-      <a id="back-to-game" href="/">Back to Game</a>
-    </li>
-    <li>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <a on:click={() => window.history.back()}>Back to Game</a>
-    </li>
-    <li>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <a on:click={() => window.history.go(-1)}>Back to Game</a>
-    </li>
-  </ol>
+  <a href="https://cavapoo-wordle.netlify.app">Back to Game</a>
 
   <p>To play, enter a five-letter English word. For example:</p>
 
